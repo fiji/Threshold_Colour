@@ -1,6 +1,8 @@
-import ij.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.WindowManager;
 import ij.plugin.filter.PlugInFilter;
-import ij.process.*;
+import ij.process.ImageProcessor;
 
 
 
