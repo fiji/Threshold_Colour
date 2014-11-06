@@ -18,25 +18,16 @@
 	<name>plugins/Threshold_Colour.jar</name>
 	<description></description>
 
-	<dependencies>
-		<!-- ImageJ dependencies -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-		</dependency>
-	</dependencies>
-
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Threshold_Colour/</url>
-	</ciManagement>
-
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Threshold_Colour</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Threshold_Colour</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Threshold_Colour</url>
 	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Threshold_Colour/</url>
+	</ciManagement>
 
 	<repositories>
 		<!-- NB: for project parent -->
@@ -45,5 +36,13 @@
 			<url>http://maven.imagej.net/content/groups/public</url>
 		</repository>
 	</repositories>
+
+	<dependencies>
+		<!-- ImageJ dependencies -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
 
 </project>
